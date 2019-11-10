@@ -40,7 +40,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Credits
 
--phantamanta44, for making Tinkers MEMES to be a base for this codebase and basic inspiration
+-phantamanta44, for making Tinkers Electrostatic to be a base for this codebase and basic inspiration
 
 -boni, for reviving ~~and balancing~~ Tinkers for 1.8.9 and above.
 

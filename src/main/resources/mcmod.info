@@ -1,13 +1,13 @@
 [
 {
-  "modid": "tmemes",
-  "name": "Modular Electro-Mechanical Enhancement Systems",
+  "modid": "electrostatic",
+  "name": "Electrostatic Tinkers Toys",
   "description": "Electrically-augmented tooling!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Phanta"],
+  "authorList": ["Cranky", "Phanta"],
   "credits": "",
   "logoFile": "",
   "screenshots": [],
