@@ -1,0 +1,29 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    "ata",
+    "ici",
+    "i i"
+  ],
+  "result": {
+    "item": "electrostatic:electric_upgrade",
+    "data": 1
+  },
+  "key": {
+    "t": {
+      "item": "mekanism:energytablet"
+    },
+    "a": {
+      "type": "forge:ore_dict",
+      "ore": "circuitElite"
+    },
+    "c": {
+      "item": "mekanism:basicblock",
+      "data": 8
+    },
+    "i": {
+      "item": "mekanism:basicblock2",
+      "data": 1
+    }
+  }
+}

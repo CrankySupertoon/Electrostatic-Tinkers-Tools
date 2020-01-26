@@ -1,0 +1,30 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " t ",
+    "ici",
+    "k k"
+  ],
+  "result": {
+    "item": "electrostatic:electric_upgrade",
+    "data": 0
+  },
+  "key": {
+    "t": {
+      "item": "thermalfoundation:material",
+      "data": 293
+    },
+    "i": {
+      "item": "thermalfoundation:material",
+      "data": 640
+    },
+    "c": {
+      "item": "thermalexpansion:capacitor",
+      "data": 1
+    },
+    "k": {
+      "item": "thermalfoundation:material",
+      "data": 515
+    }
+  }
+}

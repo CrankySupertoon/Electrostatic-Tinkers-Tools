@@ -5,17 +5,16 @@
   "description": "Electrically-augmented tooling!",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://www.curseforge.com/minecraft/mc-mods/electrostatic-tinkers-toys",
   "updateUrl": "",
-  "authorList": ["Cranky", "Phanta"],
-  "credits": "",
+  "authorList": ["CrankySupertoon", "phantamanta44"],
+  "credits": "phantamanta44, for making Tinkers MEMES to be a base for this codebase and basic inspiration, boni for reviving Tinkers and not balancing Tinkers for 1.8.9 and above, and mDiyo, for making the wonderful Tinker’s Construct for us to all use.",
   "logoFile": "",
   "screenshots": [],
   "useDependencyInformation": true,
   "dependencies": ["tconstruct", "mekanism", "mekanismgenerators", "mekanismtools", "conarm"],
   "requiredMods": [
-    "tconstruct",
-    "mekanism@[1.12.2-9.8.1.383,)"
+    "tconstruct"
   ]
 }
 ]

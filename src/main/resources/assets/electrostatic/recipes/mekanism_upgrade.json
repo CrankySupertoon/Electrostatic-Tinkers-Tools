@@ -1,0 +1,30 @@
+{
+  "type": "forge:ore_shaped",
+  "pattern": [
+    " t ",
+    "ici",
+    "k k"
+  ],
+  "result": {
+    "item": "electrostatic:electric_upgrade",
+    "data": 0
+  },
+  "key": {
+    "t": {
+      "item": "mekanism:ingot",
+      "data": 0
+    },
+    "i": {
+      "item": "mekanism:controlcircuit",
+      "data": 3
+    },
+    "c": {
+      "item": "mekanism:atomicalloy",
+      "data": 0
+    },
+    "k": {
+      "item": "mekanism:energytablet",
+      "data": 0
+    }
+  }
+}
