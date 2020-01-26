@@ -22,7 +22,6 @@ Below you will find anything you need to know. If you want to download a build y
 **Soft Dependencies**
 - Construct's Armory
 - Thermal Expansion
-- EnderIO
 - Mekanism
 
 
