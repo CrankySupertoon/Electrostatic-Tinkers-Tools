@@ -46,9 +46,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 -mDiyo, for making the wonderful Tinker’s Construct for us to all use.
 
 
-[discordImg]: https://img.shields.io/discord/408412538003259412.svg?logo=discord&logoWidth=18&colorB=7289DA
+[discordImg]: https://img.shields.io/discord/671902942466408478.svg?logo=discord&logoWidth=18&colorB=7289DA
 
-[discordLink]: https://discord.gg/jVXQFNQ
+[discordLink]: https://discord.gg/F55qYKm
 
 [curseImg]: http://cf.way2muchnoise.eu/348423.svg
 
