@@ -3,7 +3,7 @@ package com.crankysupertoon.electrostatic;
 import net.minecraftforge.common.config.Config;
 
 @Config(modid = Electrostatic.MOD_ID)
-public class MemeConfig {
+public class EConfig {
 
     @Config.Comment("Enable/disable the Electrostatic modifier.")
     @Config.RequiresMcRestart

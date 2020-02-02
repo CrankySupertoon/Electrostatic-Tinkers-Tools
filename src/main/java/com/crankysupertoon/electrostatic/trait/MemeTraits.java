@@ -1,6 +1,6 @@
 package com.crankysupertoon.electrostatic.trait;
 
-import com.crankysupertoon.electrostatic.MemeConfig;
+import com.crankysupertoon.electrostatic.EConfig;
 import com.crankysupertoon.electrostatic.item.MemeItems;
 import net.minecraft.item.ItemStack;
 import slimeknights.tconstruct.library.modifiers.ModifierTrait;
@@ -16,7 +16,7 @@ public class MemeTraits {
     public static final List<ModifierTrait> MEME_MODIFIERS = new ArrayList<>();
 
     public static void init() {
-        if (MemeConfig.enableElectromechanical) {
+        if (EConfig.enableElectromechanical) {
             MEME_MODIFIERS.add(ELECTRIC = new TraitElectromechanical());
             ELECTRIC.addItem(new ItemStack(MemeItems.ELECTRIC_UPGRADE, 1, 0), 1, 1);
         }

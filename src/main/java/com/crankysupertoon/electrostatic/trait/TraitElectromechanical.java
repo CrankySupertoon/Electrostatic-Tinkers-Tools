@@ -1,6 +1,6 @@
 package com.crankysupertoon.electrostatic.trait;
 
-import com.crankysupertoon.electrostatic.MemeConfig;
+import com.crankysupertoon.electrostatic.EConfig;
 import com.crankysupertoon.electrostatic.capability.MemeEnergyWrapper;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
@@ -17,7 +17,7 @@ import java.util.Objects;
 public class TraitElectromechanical extends ModifierTrait {
 
     public TraitElectromechanical() {
-        super("meme-electric", 0x9a1610, MemeConfig.electromechanical.maxLevel, 0);
+        super("meme-electric", 0x9a1610, EConfig.electromechanical.maxLevel, 0);
     }
 
     @Override
@@ -38,11 +38,11 @@ public class TraitElectromechanical extends ModifierTrait {
             return 0;
         if (newDamage > 0) {
             int level = ModifierNBT.readTag(TinkerUtil.getModifierTag(tool, identifier)).level;
-            double chance = MemeConfig.electromechanical.baseProcChance
-                    + (level - 1) * MemeConfig.electromechanical.additionalProcChance;
+            double chance = EConfig.electromechanical.baseProcChance
+                    + (level - 1) * EConfig.electromechanical.additionalProcChance;
             if (chance > 0 && Math.random() <= chance) {
                 int energy = Objects.requireNonNull(tool.getTagCompound()).getInteger("memeEnergy");
-                int cost = newDamage * MemeConfig.electromechanical.energyUse;
+                int cost = newDamage * EConfig.electromechanical.energyUse;
                 if (energy >= cost) {
                     tool.getTagCompound().setInteger("memeEnergy", energy - cost);
                     return 0;
@@ -64,7 +64,7 @@ public class TraitElectromechanical extends ModifierTrait {
             rootCompound.setInteger("memeEnergy", 0);
         }
         rootCompound.setInteger("memeEnergyCapacity",
-                ModifierNBT.readTag(modifierTag).level * MemeConfig.electromechanical.energyBufferPerLevel);
+                ModifierNBT.readTag(modifierTag).level * EConfig.electromechanical.energyBufferPerLevel);
     }
 
 }
