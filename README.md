@@ -45,11 +45,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 -mDiyo, for making the wonderful Tinker’s Construct for us to all use.
 
-
-[discordImg]: https://img.shields.io/discord/671902942466408478.svg?logo=discord&logoWidth=18&colorB=7289DA
-
+[discordImg]: https://img.shields.io/discord/671902942466408478.svg?logo=discord&logoWidth=18&colorB=7289DA&style=for-the-badge
 [discordLink]: https://discord.gg/F55qYKm
 
-[curseImg]: http://cf.way2muchnoise.eu/348423.svg
+[curseImg]: http://cf.way2muchnoise.eu/348423.svg?badge_style=for_the_badge
 
 [curseLink]: https://www.curseforge.com/minecraft/mc-mods/electrostatic-tinkers-toys
