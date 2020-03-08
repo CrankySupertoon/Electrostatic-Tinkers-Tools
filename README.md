@@ -12,20 +12,20 @@ Below you will find anything you need to know. If you want to download a build y
 
 ## 📜 [Changelog](Changelog.md)
 
+## ⬇️ Downloads
+Latest: [Can be found here](https://curseforge.com/Minecraft/mc-mods/electrostatic-tinkers-toys)
+
+## 📦 Modpacks
+* Sure, provide a link to this github or [here](https://curseforge.com/Minecraft/mc-mods/electrostatic-tinkers-toys).
+
+## ⚙️ Dependencies 
+Electrostatic Tinkers Toys depends on [Tinkers' Construct](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)
+
+## 🔑 Mod Integrations
+This mod currently has integrations with [Constructs Armory](https://www.curseforge.com/minecraft/mc-mods/constructs-armory), [Mekanism](https://www.curseforge.com/minecraft/mc-mods/mekanism) and [Thermal Expansion](https://www.curseforge.com/minecraft/mc-mods/thermal-expansion). There is also plans for integrations with EnderIO.
 
 
-## ⚙️ Dependencies
-
-**Hard Dependencies**
-- Tinker's Construct
-
-**Soft Dependencies**
-- Construct's Armory
-- Thermal Expansion
-- Mekanism
-
-
-## 🚀 Built and managed with 
+## 🗝 Built and managed with 
 
 * [Github](http://www.github.com/) - Git Service
 * [IntellIJ IDEA 2019.3](https://www.jetbrains.com/idea/download/) - IDE
@@ -37,7 +37,7 @@ Below you will find anything you need to know. If you want to download a build y
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
 
-## Credits
+## 📃 Credits
 
 -phantamanta44, for making Tinkers Electrostatic to be a base for this codebase and basic inspiration
 
